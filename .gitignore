@@ -1,0 +1,16 @@
+#hiding Ds
+.DS_Store
+
+#Trash
+.Trash-0
+
+#check points
+.ipynb_checkpoints
+
+#unused table
+chrismoetable.db
+
+
+#model
+model.pkl
+
