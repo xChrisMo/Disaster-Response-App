@@ -53,17 +53,16 @@ After cloning this repository, use the `disaster_materials`, along these instruc
 * Go to `http://0.0.0.0:3001/`
 * Finally, enter a message to classify, whatever comes to mind. You should have a result close to that in the image below
 
-[app_screenshot](app_pictures/Screenshot%202024-09-22%20at%2001.22.00.png) 
-
+![app_screenshot](app_pictures/Screenshot%202024-09-22%20at%2001.22.00.png)
 
 ## Files in the Repository
 
-Disaster_materials
+#### Disaster_materials
 * App folder including the templates folder and "run.py" for the web application
 * Data folder containing "DisasterResponse.db", "disaster_categories.csv", "disaster_messages.csv" and "process_data.py" for cleaning and database storage.
 * Models folder including "classifier.pkl" and "train_classifier.py" for the Machine Learning model.
 
-Jupyter_notebooks
+#### Jupyter_notebooks
 * **ETLPipelinePreparation.ipynb**: Data preprocessing steps used to merge, clean and store datasets (used to script `process_data.py`)
 * **MLPipelinePreparation.ipynb**: Series of ML and NLP pipelines saved to create a pickle file (used to script `train_classifier.py`)
 
